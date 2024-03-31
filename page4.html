@@ -50,17 +50,66 @@
                 </li>
             </ul>
             <ul>
+                <img src="https://cdn0-production-images-kly.akamaized.net/cbp0BOLrAbVALBYj5Nbq_-uMIzc=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3158121/original/075304800_1592646451-unnamed.jpg" alt="">
+                <li>
+                    <input type="checkbox">
+                    <p>Seblak</p>
+                </li>
+            </ul>
+            <ul>
+                <img src="https://asset.kompas.com/crops/bir_n68EceaF9Lp9FbjAYVZZRS8=/0x63:960x703/750x500/data/photo/2021/01/01/5fef227e4f162.jpeg" alt="">
+                <li>
+                    <input type="checkbox">
+                    <p>Grill</p>
+                </li>
+            </ul>
+            <ul>
+                <img src="https://cove-blog-id.sgp1.cdn.digitaloceanspaces.com/cove-blog-id/2023/06/restoran-all-you-can-eat-jakarta.webp" alt="">
+                <li>
+                    <input type="checkbox">
+                    <p>All you can it</p>
+                </li>
+            </ul>
+            <ul>
+                <img src="https://asset.kompas.com/crops/vIeK9AWW9_ZospMlPG098XIjX4E=/0x0:739x493/750x500/data/photo/2020/04/14/5e958f08a5e51.jpg" alt="">
+                <li>
+                    <input type="checkbox">
+                    <p>Ramen</p>
+                </li>
+            </ul>
+            <ul>
+                <img src="https://storage.googleapis.com/storage-ajaib-prd-platform-wp-artifact/2023/06/Mie-Gacoan.webp" alt="">
+                <li>
+                    <input type="checkbox">
+                    <p>Gacoan</p>
+                </li>
+            </ul>
+            <ul>
+                <img src="https://img.ws.mms.shopee.co.id/708dce2b183ecceeb9076d07d88a45bc" alt="">
+                <li>
+                    <input type="checkbox">
+                    <p>Bakso Aci</p>
+                </li>
+            </ul>
+            <ul>
+                <img src="https://kampungkaleng.com/wp-content/uploads/2022/06/123.jpg" alt="">
+                <li>
+                    <input type="checkbox">
+                    <p>Cuanki</p>
+                </li>
+            </ul>
+            <ul id="terserah">
                 <img src="https://storage.nu.or.id/storage/post/16_9/big/terserah_1651212120.webp" alt="">
                 <li>
                     <input type="checkbox">
                     <p>Menu Terserah</p>
                 </li>
             </ul>
-            <ul>
-                <img src="https://cdn0-production-images-kly.akamaized.net/cbp0BOLrAbVALBYj5Nbq_-uMIzc=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3158121/original/075304800_1592646451-unnamed.jpg" alt="">
+            <ul id="wlee">
+                <img src="https://i.pinimg.com/originals/c5/7e/86/c57e86ddc99e489851f84fe1949befa1.jpg" alt="">
                 <li>
-                    <input type="checkbox">
-                    <p>Seblak</p>
+                    <input type="hidden">
+                    <p></p>
                 </li>
             </ul>
         </div>
@@ -69,9 +118,18 @@
 
     <script>
         $(document).ready(function () {
+            $('#wlee').hide()
             $('#lanjut').click(function () {
                 window.location.href = 'page5.html'
             })
+            
+            $('#terserah').hover(function() {
+                $(this).hide();
+                $('#wlee').show();
+            }, function() {
+                $(this).show();
+                $('#wlee').hide();
+            });
         })
     </script>
 </body>
