@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'quicksand';
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    width: 100%;
+    gap: 3rem;
+}
+
+section div h3 {
+    font-size: 1.5rem;
+}
+
+section div img {
+    width: 25rem;
+}
+
+section div button {
+    width: fit-content;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: pink;
+    font-weight: 600;
+    cursor: pointer;
+}
+section div button:hover {
+    background-color: rgb(255, 153, 170);
+    color: white;
+    transition:  all .25s ease-in 0s;
+}

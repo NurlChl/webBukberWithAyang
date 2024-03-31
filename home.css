@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'quicksand';
+}
+
+
+section {
+    display: flex;
+    justify-content: center;  
+    width: 100%;  
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+section div h3 {
+    font-size: 3rem;
+}
+
+section div img {
+    width: 10rem;
+    object-fit: contain;
+}
+
+section div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+section div ul button {
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    height: fit-content;
+    background-color: pink;
+    cursor: pointer;
+    font-weight: 600;
+}
+section div ul button:hover {
+    background-color: rgb(255, 153, 170);
+    color: white;
+    transition:  all .25s ease-in 0s;
+}
+
+section div ul button#gamau {
+    height: fit-content;
+}

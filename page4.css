@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'quicksand';
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+section div {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+section div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+section div ul img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: .5rem;
+    border: .3rem solid pink;
+}
+
+section div ul li {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+section div ul li input {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+section div ul li p {
+    font-weight: 600;
+}
+
+section button {
+    width: fit-content;
+    padding: .5rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: pink;
+    cursor: pointer;
+    font-weight: 500;
+}

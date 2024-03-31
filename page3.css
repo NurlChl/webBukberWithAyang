@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'quicksand';
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+div h2 {
+    font-size: 2rem;
+}
+
+div ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+div ul input[type=date] {
+    background-color: pink;
+    border: none;
+    padding: .5rem 1rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+div ul button {
+    border: none;
+    border-radius: .5rem;
+    background-color: pink;
+    font-weight: 600;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+div ul button:hover {
+    background-color: rgb(255, 153, 170);
+    color: white;
+    transition:  all .25s ease-in 0s;
+}
